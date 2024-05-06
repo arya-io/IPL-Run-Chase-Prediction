@@ -5,7 +5,9 @@ This data was obtained from a public dataset available on Kaggle, licensed under
 A machine learning model is developed using historical data encompassing IPL seasons from 2008 to 2023. The model, a Random Forest classifier, achieved an accuracy of 99.87% and Logistic Regression with an accuracy of 80.38% in predicting the win/loss outcome for the batting team in the second innings.
 
 Fig. 1. Working of Algorithm with Pipeline
+
 Fig. 2. Over by Over Win and Lose Probability for Chase Team
+
 Fig. 3. Visual Representation of Over by Over Data using Random Forest Algorithm
 
 Images of Model working with Random Forest Algorithm
