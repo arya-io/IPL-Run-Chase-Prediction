@@ -24,4 +24,4 @@ Images of Model working with Logistic Regression Algorithm
 
 We chose the Logistic Regression Algorithm as our final algorithm for the Model as it gives probability percentage with interesting figures which would engage the users and cricket fans as a whole. Random Forest would just give the probability with extreme 98-99 percentages.
 
-
+A Video Demonstration File of the Project has been attached.
