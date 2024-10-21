@@ -96,6 +96,3 @@ if st.button('Predict Probability'):
 
     # Use st.pyplot to display the graph within Streamlit
     st.pyplot()
-
-
-st.set_option('deprecation.showPyplotGlobalUse', False)
