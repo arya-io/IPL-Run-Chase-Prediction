@@ -3,6 +3,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import base64
+import matplotlib.pyplot as plt
+
 
 
 def get_base64(bin_file):
@@ -79,3 +81,21 @@ if st.button('Predict Probability'):
     win = result[0][1]
     st.header(batting_team + " - " + str(round(win*100, 2)) + "%")
     st.header(bowling_team + " - " + str(round(loss*100, 2)) + "%")
+
+    teams = [batting_team, bowling_team]
+    win_probabilities = [win*100, loss*100]  # From prediction result
+
+    # Create the graph using matplotlib
+    plt.figure(figsize=(6, 4))  # Adjust figure size as needed
+    plt.bar(teams, win_probabilities, color=['blue', 'yellow'])
+    plt.xlabel('Teams')
+    plt.ylabel('Win Probability (%)')
+    plt.title('Predicted Win Probabilities')
+    plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+
+    # Use st.pyplot to display the graph within Streamlit
+    st.pyplot()
+
+
+st.set_option('deprecation.showPyplotGlobalUse', False)
