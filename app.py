@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set page configuration for a better layout
+# Adding Favicon
 st.set_page_config(
     page_title = 'IPL Win Predictor',
     page_icon = '🏏',
