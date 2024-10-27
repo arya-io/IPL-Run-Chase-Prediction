@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set page configuration for a better layout
-st.set_page_config(page_title="IPL Win Predictor", layout="wide")
+st.set_page_config(
+    page_title = 'IPL Win Predictor',
+    page_icon = '🏏',
+)
 
 # Define lists of IPL teams and host cities
 teams = [
