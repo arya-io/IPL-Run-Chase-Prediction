@@ -2,7 +2,7 @@
 
 This data was obtained from a public dataset available on Kaggle, licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. The specific dataset title was 'IPL 2008 to 2023 dataset' contributed by username 'Sri tata' on Kaggle. We acknowledge Sri tata for making the dataset publicly available under the CC BY-NC-SA 4.0 license. We further acknowledge cricsheet.com as the potential source of the raw data based on the dataset contributor's note.
 
-A machine learning model is developed using historical data encompassing IPL seasons from 2008 to 2023. The model, a Random Forest classifier, achieved an accuracy of 99.87% and Logistic Regression with an accuracy of 80.38% in predicting the win/loss outcome for the batting team in the second innings.
+A machine learning model is developed using historical data encompassing IPL seasons from 2008 to 2023. The model, a Random Forest classifier, achieved an accuracy of 99.87% and Logistic Regression with an accuracy of 80.38% in predicting the win/loss outcome for the batting team in the second innings of the IPL match.
 
 Fig. 1. Working of Algorithm with Pipeline
 
