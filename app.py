@@ -29,7 +29,7 @@ cities = [
 ]
 
 # Load the pre-trained model for win probability prediction
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = pickle.load(open('pipe_new.pkl', 'rb'))
 
 # Streamlit title with custom styling
 st.markdown(
